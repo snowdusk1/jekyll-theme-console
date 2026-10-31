@@ -1,9 +1,10 @@
 ---
-title: /
-layout: home
-permalink: /
+layout: page 
+title: home
 ---
+# Welcome to my home on the WWW
 
-# Lorem ipsum
+Check out my [aNONradio](https://anonradio.net) show tracklists here &rarr; [intergalactic](/intergalactic/)!
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+![snowdusk videostream]({{ '/assets/images/snowdusk_videostream.jpg' | relative_url }})

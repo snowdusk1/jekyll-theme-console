@@ -4,3 +4,12 @@
 _site
 Gemfile.lock
 .DS_Store
+
+# --- Personal Additions ---
+*.sh
+*.py
+.jekyll-cache/
+_publish
+assets/images/
+.dockerignore
+.gitignore

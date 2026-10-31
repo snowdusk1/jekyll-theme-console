@@ -1,20 +1,32 @@
 # Example Site settings
 
-#header_pages:
-#  - index.md
-#  - about.md
-
-#footer: 'follow us on <a href="https://twitter.com/">twitter</a>'
+header_pages:
+  - index.md 
+  - blog.md
+  - intergalactic.md
+  - about.md
+  - tags.md
+  - archive.md
 
 plugins:
   - jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-archives
+
+jekyll-archives:
+  enabled:
+    - tags
+  layout: tag_archive
+  permalinks:
+    tag: /tags/:name/
 
 # Theme options
-# style: dark # dark (default) or light or hacker
-# listen_for_clients_preferred_style: true # true or false (default)
+style: hacker # dark (default) or light or hacker
+
+listen_for_clients_preferred_style: false # true or false (default)
 
 # Fonts
-# disable_google_fonts: false # set true to prevent loading fonts.googleapis.com
+disable_google_fonts: false # set true to prevent loading fonts.googleapis.com
 
 # Tracking (generic, optional; loads only in production)
 # tracking:
